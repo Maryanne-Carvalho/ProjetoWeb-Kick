@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #dcd8d8;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #0d4703;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+header h1 {
+    font-size: 36px;
+    color: #fff;
+    margin: 0;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+}
+
+.menu-toggle {
+    display: none;
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.nav a {
+    border: 1px solid #fff;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #fff;
+    color: #0d4703;
+}
+
+#img_home {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.box {
+    background-color: #000;
+    padding: 20px;
+    width: 100%;
+    color: #fff;
+    border-radius: 8px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.home {
+    background-color: #666666;
+}
+
+.home p, .home ul {
+    margin: 20px 0;
+    line-height: 1.6;
+    text-align: left;
+}
+
+.home ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.home ul li {
+    margin: 10px 0;
+}
+
+.titulo {
+    text-align: center;
+    border: 2px solid #fff;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.titulo h2 {
+    font-size: 24px;
+    color: #fff;
+    margin: 0;
+}
+
+.elenco {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.elenco a {
+    border: 0 solid #e8d8d8;
+    background-color: #e2dddd;
+    color: #051d00;
+    text-decoration: none;
+    padding: 7px 5px;
+    margin: 5px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.elenco a:hover {
+    background-color: #fff;
+    color: #0d4703;
+}
+
+.ator {
+    width: calc(25% - 20px);
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.ator img {
+    max-width: 100%;
+    height: auto;
+}
+
+.texto {
+    color: #000;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    clear: both;
+}
+
+.box_filme_container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.box_filme {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(33.33% - 20px);
+    margin-bottom: 10px;
+    text-align: center;
+    position: relative;
+}
+
+.box_filme iframe {
+    width: 100%;
+    height: 200px;
+    border-radius: 8px;
+}
+
+.box_game {
+    text-align: center;
+}
+
+.box_game a {
+    display: inline-block;
+    background-color: #0d4703;
+    font-size: 30px;
+    color: #fff;
+    padding: 40px 60px;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.box_game a:hover {
+    background-color: #fff;
+    color: #0d4703;
+}
+
+.curiosidade {
+    width: 100%;
+}
+
+.c_texto {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.c_texto img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.c_texto p {
+    margin: 20px 0;
+}
+
+.c_texto a {
+    display: inline-block;
+    background-color: #0d4703;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+.c_texto a:hover {
+    background-color: #fff;
+    color: #0d4703;
+}
+.elenco-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.elenco-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.elenco-carrossel {
+    width: 100%;
+}
+
+.box-slide {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+}
+
+.box-slide img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+.box-slide p{
+    text-align: left;
+}
+.curi-texto{
+    font-size:18px;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    clear: both;
+}
+
+/* Responsiveness */
+@media (max-width: 1200px) {
+    .box_filme {
+        width: calc(50% - 20px);
+    }
+
+    .box_filme iframe {
+        height: 200px;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav a {
+        margin: 5px 0;
+        width: 100%;
+        padding: 10px 0;
+    }
+
+    .menu-toggle {
+        display: table-column;
+        background-color: #0d4703;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        font-size: 24px;
+        cursor: pointer;
+        border-radius: 5px;
+        margin-left: auto;
+    }
+
+    .nav-links.show {
+        display: flex;
+    }
+
+    .elenco {
+        align-items: center;
+    }
+
+    .ator {
+        width: 80%;
+        margin: 10px 0;
+    }
+
+    .box_filme {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 28px;
+    }
+
+    .titulo h2 {
+        font-size: 20px;
+    }
+
+    .box_game a {
+        padding: 20px 40px;
+        font-size: 24px;
+    }
+
+    .home h1{
+        font-size: 20px;
+    }
+    .home p, ul {
+        font-size: 13px;
+    }
+}
+
+.menu-toggle {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+    }
+}
+

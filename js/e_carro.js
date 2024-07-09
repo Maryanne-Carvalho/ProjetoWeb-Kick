@@ -3,8 +3,8 @@ $(document).ready(function(){
         centerMode: true,
         centerPadding: '60px',
         slidesToShow: 3,
-        prevArrow: $('.prev'), // Use a classe .prev para a seta "Anterior"
-        nextArrow: $('.next'), // Use a classe .next para a seta "Próxima"
+        prevArrow: $('.prev'), 
+        nextArrow: $('.next'), 
         responsive: [
             {
                 breakpoint: 768,
@@ -18,7 +18,6 @@ $(document).ready(function(){
         ]
     });
 
-    // Mostra as setas somente quando hover na área do carrossel
     $('.carousel').hover(
         function() {
             $('.prev').fadeIn();

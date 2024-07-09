@@ -36,7 +36,6 @@ body {
     margin: 20px auto;
 }
 
-/* Estilos para cada bloco de curiosidade */
 .curiosidade {
     display: flex;
     gap: 20px;
@@ -45,13 +44,11 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Estilo para curiosidades ímpares */
 .curiosidade:nth-child(odd) {
     background-color: #fff;
     color: #333;
 }
 
-/* Estilo para curiosidades pares */
 .curiosidade:nth-child(even) {
     background-color: #333;
     color: #fff;

@@ -4,63 +4,121 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bastidores - Breaking Bad</title>
-    <link rel="stylesheet" href="css/style.css">
-    <script src="js/codigo.js" defer></script>
+    <title>Curiosidades - Breaking Bad</title>
+    <link rel="stylesheet" href="css/bast.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/curiosidades.css">
+    <script src="js/menu.js" defer></script>
 </head>
 
 <body>
-    <header>
-        <div id="logo">
-            <h1>Breaking Bad</h1>
+    <div class="navbar">
+        <div class="navbar_logo">Breaking Bad</div>
+        <a href="#" class="navbar_button">
+            <span class="bar" id="top"></span>
+            <span class="bar" id="center"></span>
+            <span class="bar" id="bottom"></span>
+        </a>
+        <div class="navbar_links">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="elenco.html">Elenco</a></li>
+                <li><a href="curi.html">Curiosidades</a></li>
+                <li><a href="bast.html">Bastidores</a></li>
+                <li><a href="game.html">Game</a></li>
+            </ul>
         </div>
-        <button class="menu-toggle" id="menu-toggle">&#9776;</button>
-        <nav class="nav">
-            <div class="nav-links" id="nav-links">
-                <a href="index.html">Home</a>
-                <a href="elenco.html">Elenco</a>
-                <a href="curi.html">Curiosidades</a>
-                <a href="">Bastidores</a>
-                <a href="game.html">Game</a>
-            </div>
-        </nav>
-    </header>
-    <div class="container">
+    </div>
+    <div class="curiosidades-container">
+        <div class="curiosidade">
+            <div class="curiosidade-texto">
+                <h2>Breaking Bad - Entrevista com o Elenco (TimesTalks) </h2>
+                <p>O elenco de Breaking Bad e seu criador falam com o repórter Dave Itzkoff, do New York Times.
 
-            <div class="box titulo">
-                <h2>Cenas dos Bastidores</h2>
+                    Bryan Cranston, Anna Gunn, Aaron Paul, Dean Norris, Betsy Brandt e Vince Gilligan discutem o
+                    seriado, os personagens e o que viria a seguir na temporada final.</p>
             </div>
-            <div class="box_filme_container">
-                <div class="box_filme">
-                    <iframe src="https://www.youtube.com/embed/FmSn2iA0CYg?si=M3xsGr1_OkI0vB9S"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                </div>
-                <div class="box_filme">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/QrrlkyN_FTk?si=MkVuQHdxNmnf2nyA"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                </div>
-                <div class="box_filme">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/lEOHLPurPAQ?si=vNwAdDBoStqsurxu"
-                        title="YouTube video player" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                        </div>
-                    <div class="box titulo">
-                        <p>Você é um verdadeiro fã da série?</p>
-                        <p>Teste agora seu conhecimento</p>
-                        <div class="box_game">
-                            <a href="game.html">CLIQUE PARA JOGAR</a>
-                        </div>
-                </div>
+            <div class="curiosidade-video">
+                <iframe src="https://www.youtube.com/embed/lEOHLPurPAQ?si=E0UD_cGV6-pik5V9" title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
-            <footer>
-                <p>© Desenvolvido por Maryanne L. Carvalho - 2024</p>
-            </footer>
-            <script src="js/menu.js"></script>
+        </div>
+
+        <div class="curiosidade">
+            <div class="curiosidade-video">
+                <iframe src="https://www.youtube.com/embed/FmSn2iA0CYg?si=M3xsGr1_OkI0vB9S" title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="curiosidade-texto">
+                <h2>Breaking BLOOPERS</h2>
+                <p>Assista ao elenco de Breaking Bad e aos erros da equipe salvos da sala de edição da segunda temporada
+                </p>
+            </div>
+        </div>
+
+        <div class="curiosidade">
+            <div class="curiosidade-texto">
+                <h2>O SEGREDO por TRÁS das CENAS de BREAKING BAD!</h2>
+                <p>curiosidades e fatos inéditos sobre os bastidores de Breaking Bad, coisas nunca antes vistas, como o
+                    CGI, a computação gráfica da série!</p>
+            </div>
+            <div class="curiosidade-video">
+                <iframe src="https://www.youtube.com/embed/6cb1hA5Y4LU?si=IcxgPH_qbGLA42bL" title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <div class="curiosidade">
+            <div class="curiosidade-video">
+                <iframe src="https://www.youtube.com/embed/YMKPkJD5b04?si=iBhU5kVqBkUHTT79" title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="curiosidade-texto">
+                <h2>Bryan Cranston (Walter White) sobre a cena mais difícil de Breaking Bad</h2>
+                <p>Nessa entrevista, o ator Bryan Cranston que interpretou o famoso Walter White na série Breaking Bad,
+                    fala sobre a cena mais difícil de gravar e que também mexeu muito com ele.</p>
+            </div>
+        </div>
+
+        <div class="curiosidade">
+            <div class="curiosidade-texto">
+                <h2>CENAS SURPREENDENTES QUE FORAM DELETADAS DE BREAKING BAD!</h2>
+                <p>cenas que foram deletadas de Breaking Bad!</p>
+            </div>
+            <div class="curiosidade-video">
+                <iframe src="https://www.youtube.com/embed/QrrlkyN_FTk?si=T86oWfwTNnUNyUkQ" title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <div class="curiosidade">
+            <div class="curiosidade-video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/hEpTjRAqia0?si=M1DtF0zDyxGQMPVJ"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="curiosidade-texto">
+                <h2>
+                    Breaking Bad, primeiro dia de filmagem, temporada final</h2>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>© Desenvolvido por Maryanne L. Carvalho - 2024</p>
+    </footer>
+
 </body>
 
 </html>

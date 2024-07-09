@@ -4,136 +4,181 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - Breaking Bad</title>
-    <link rel="stylesheet" href="css/style.css">
-    <script src="js/codigo.js" defer></script>
+    <title>Elenco - Breaking Bad</title>
+    <link rel="stylesheet" href="css/elenco.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <script src="js/menu.js" defer></script>
+    <script src="js/carrossel.js" defer></script>
 </head>
 
 <body>
-    <header>
-        <div id="logo">
-            <h1>Breaking Bad</h1>
+    <div class="navbar">
+        <div class="navbar_logo">Breaking Bad</div>
+        <a href="#" class="navbar_button">
+            <span class="bar" id="top"></span>
+            <span class="bar" id="center"></span>
+            <span class="bar" id="botton"></span>
+        </a>
+        <div class="navbar_links">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="elenco.html">Elenco</a></li>
+                <li><a href="curi.html">Curiosidades</a></li>
+                <li><a href="bast.html">Bastidores</a></li>
+                <li><a href="game.html">Game</a></li>
+            </ul>
         </div>
-        <button class="menu-toggle" id="menu-toggle">&#9776;</button>
-        <nav class="nav">
-            <div class="nav-links" id="nav-links">
-                <a href="index.html">Home</a>
-                <a href="">Elenco</a>
-                <a href="curi.html">Curiosidades</a>
-                <a href="bast.html">Bastidores</a>
-                <a href="game.html">Game</a>
-            </div>
-        </nav>
-    </header>
+    </div>
     <div class="container">
-        <div class="elenco-content">
-            <div class="elenco-carrossel">
-                <div class="box-slide">
-                    <img src="img/anna.jpg">
-                    <h2>Anna Gunn<br>Personagem: Skyller White</h2>
-                    <p>Anna Gunn, nascida em 11 de agosto de 1968 em Santa Fé, é uma atriz americana reconhecida
-                        principalmente por seu papel como Skyler White na série de televisão Breaking Bad. Ela ganhou
-                        Prêmios Emmy do Primetime de Melhor Atriz Coadjuvante em Série Dramática em 2013 e 2014 por esse
-                        papel.
+        <div class="fade">
+            <div id="anna" class="box-slide">
+                <img src="img/anna.jpg">
+                <h2>Anna Gunn<br>Personagem: Skyller White</h2>
+                <p>Anna Gunn, nascida em 11 de agosto de 1968 em Santa Fé, é uma atriz americana reconhecida
+                    principalmente por seu papel como Skyler White na série de televisão Breaking Bad. Ela ganhou
+                    Prêmios Emmy do Primetime de Melhor Atriz Coadjuvante em Série Dramática em 2013 e 2014 por esse
+                    papel.
+                </p>
+                <a href="https://pt.wikipedia.org/wiki/Anna_Gunn"
+                    class="elenco-link">Leia mais...</a>
+            </div>
+        </div>
+        <div class="fade">
+            <div id="bryan" class="box-slide">
+                <img src="img/bryan.jpg">
+                <h2>Bryan Cranston<br>Personagem: Walter White</h2>
+                <p>
+                    Bryan Lee Cranston, nascido em Los Angeles em 7 de março de 1956, é um multifacetado artista
+                    americano, destacando-se como ator, dublador, roteirista, diretor e produtor. Seu papel icônico
+                    como Walter White na série dramática da AMC Breaking Bad lhe rendeu quatro Prêmios Emmy do
+                    Primetime de Melhor Ator em Série Dramática.
+                </p>
+                <a href="https://pt.wikipedia.org/wiki/Bryan_Cranston" class="elenco-link">Leia mais...</a>
+            </div>
+        </div>
+        <div class="fade">
+            <div id="dean" class="box-slide">
+                <img src="img/dean.jpg">
+                <h2>Dean Norris<br>Personagem: Hank Schrader</h2>
+                <p>Dean Joseph Norris, nascido em 8 de abril de 1963, é um talentoso ator americano. Ele é
+                    reconhecido principalmente por seu papel como o agente da DEA Hank Schrader na renomada série da
+                    AMC Breaking Bad (2008–2013) e em seu spin-off Better Call Saul (2020). Além disso, Norris
+                    trouxe vida ao personagem do vereador James "Big Jim" Rennie na série da CBS Under the Dome
+                    (2013–2015) e interpretou o impiedoso chefe da máfia Clay "Uncle Daddy" Husser na série da TNT
+                    Claws (2017–2022).
+                </p>
+                <a href="https://pt.wikipedia.org/wiki/Dean_Norris" class="elenco-link">Leia mais...</a>
+            </div>
+        </div>
+        <div class="fade">
+            <div id="aaron" class="box-slide">
+                <img src="img/aaron.jpg">
+                <h2>Aaron Paul<br>Personagem: Jesse Pinkman</h2>
+                <p>Aaron Paul, nascido Aaron Paul Sturtevant em 27 de agosto de 1979, é um aclamado ator e produtor
+                    americano. Ele é famoso por sua interpretação de Jesse Pinkman na série Breaking Bad
+                    (2008–2013), pela qual ganhou diversos prêmios, incluindo o Critics' Choice Television Award e o
+                    Primetime Emmy Award.
+                </p>
+                <a href="https://pt.wikipedia.org/wiki/Aaron_Paul" class="elenco-link">Leia mais...</a>
+            </div>
+        </div>
+        <div class="fade">
+            <div id="jonathan" class="box-slide">
+                <img src="img/jonathan.jpg">
+                <h2>Jonathan Banks<br>Personagem: Mike Ehrmantraut</h2>
+                <p>Jonathan Ray Banks (Washington D.C., 31 de janeiro de 1947) é um ator e dublador norte-americano. É
+                    conhecido pelos seus trabalhos em Apertem os cintos, o piloto sumiu!, 48 Horas e Um Tira da Pesada.
+                    Foi aclamado pela crítica interpretando Mike Ehrmantraut nas séries Breaking Bad e Better Call Saul,
+                    bem como Frank McPike em O Homem da Máfia.
+                </p>
+                <a href="https://pt.wikipedia.org/wiki/Dean_Norris" class="elenco-link">Leia mais...</a>
+            </div>
+        </div>
+        <div class="fade">
+            <div id="bob" class="box-slide">
+                <img src="img/bob.jpg">
+                <h2>Bob Odenkirk<br>Personagem: Saul Goodman</h2>
+                <p>Bob Odenkirk (nascido em 22 de outubro de 1962) é um ator, comediante, roteirista e diretor
+                    americano. Conhecido por interpretar Saul Goodman em "Breaking Bad" e "Better Call Saul", ele também
+                    criou "Mr. Show with Bob and David" com David Cross. Trabalhou como roteirista em diversos programas
+                    de TV e dirigiu três filmes. Em 2018, dublou Winston Deavor em "Os Incríveis 2".
+                </p>
+                <a href="https://pt.wikipedia.org/wiki/Bob_Odenkirk" class="elenco-link">Leia mais...</a>
+            </div>
+        </div>
+        <div class="fade">
+            <div id="betsy" class="box-slide">
+                <img src="img/betsy.jpg">
+                <h2>Betsy Brandt<br>Personagem: Marie Schrader</h2>
+                <p>Betsy Ann Brandt (14 de março de 1973) é uma atriz norte-americana. Ela iniciou sua carreira
+                    artística como atriz de teatro em Nova York antes de se mudar para Los Angeles em busca de mais
+                    oportunidades na televisão e no cinema. Ela ficou conhecida pelo grande público ao interpretar Marie
+                    Schrader na aclamada série Breaking Bad, papel que lhe rendeu indicações a prêmios importantes como
+                    o SAG Awards.
+                </p>
+                <a href="https://pt.wikipedia.org/wiki/Betsy_Brandt" class="elenco-link">Leia mais...</a>
+            </div>
+        </div>
+        <div class="fade">
+            <div id="rj" class="box-slide">
+                <img src="img/rj.jpg">
+                <h2>RJ Mitte<br>Personagem: Walter White Junior</h2>
+                <p>Roy Frank "RJ" Mitte III, nascido em 21 de agosto de 1992, é um talentoso ator e produtor
+                    norte-americano, conhecido por seu papel como Walter "Flynn" White Jr. na série Breaking Bad.
+                    Assim como seu personagem na tela, Mitte enfrenta desafios devido à sua leve paralisia cerebral.
+                </p>
+                <a href="https://pt.wikipedia.org/wiki/RJ_Mitte" class="elenco-link">Leia mais...</a>
+            </div>
+        </div>
+        <div class="fade">
+            <div id="giancarlo" class="box-slide">
+                <img src="img/giancarlo.jpg">
+                <h2>Giancarlo Esposito<br>Personagem: Gustavo Fring</h2>
+                <p>Giancarlo Giuseppe Alessandro Esposito, nascido em Copenhague em 26 de abril de 1958, é um ator
+                    ítalo-americano. Ele se destacou como Gus Fring em "Breaking Bad" (2009-2011) e em "Better Call
+                    Saul" (2017-2022). Esposito ganhou o Critics' Choice Television Award de Melhor Ator Coadjuvante em
+                    Série Dramática e recebeu três indicações ao Emmy do Primetime pelo mesmo papel.
+                </p>
+                <a href="https://pt.wikipedia.org/wiki/Giancarlo_Esposito" class="elenco-link">Leia mais...</a>
+            </div>
+        </div>
 
-                        Além de Breaking Bad, Gunn teve papéis notáveis em séries como The Practice e Deadwood. Ela
-                        também fez aparições em programas como Seinfeld e Six Feet Under, e forneceu a voz de Ariel na
-                        série de jogos eletrônicos Legacy of Kain. No cinema, seus créditos incluem filmes como Enemy of
-                        the State e Red State.
-
-                        Em 2013, Gunn escreveu um artigo para o The New York Times explorando a antipatia pública em
-                        relação à sua personagem em Breaking Bad. Ela também foi escalada para estrelar o episódio
-                        piloto da série dramática Rita, baseada em uma produção dinamarquesa sobre uma professora de
-                        escola particular que também é mãe.</p>
-                    <a href="https://pt.wikipedia.org/wiki/Anna_Gunn#:~:text=Anna%20Gunn%20(Santa%20F%C3%A9%2C%2011,dram%C3%A1tica%20em%202013%20e%202014.&text=Gunn%20na%20San%20Diego%20Comic%2DCon%20International%20de%202013." class="elenco-link">Leia mais...</a>
-                </div>
-                <div class="box-slide">
-                    <img src="img/bryan.jpg">
-                    <h2>Bryan Cranston<br>Personagem: Walter White</h2>
-                    <p>
-                        Bryan Lee Cranston, nascido em Los Angeles em 7 de março de 1956, é um multifacetado artista
-                        americano, destacando-se como ator, dublador, roteirista, diretor e produtor. Seu papel icônico
-                        como Walter White na série dramática da AMC Breaking Bad lhe rendeu quatro Prêmios Emmy do
-                        Primetime de Melhor Ator em Série Dramática.
-
-                        Além de seu trabalho impressionante em Breaking Bad, Cranston é lembrado por seu papel como Hal
-                        na série cômica da Fox Malcolm in the Middle e como Dr. Tim Whatley na série da NBC Seinfeld.
-
-                        Cranston também mostrou suas habilidades de direção, dirigindo episódios de várias séries,
-                        incluindo sete de Malcom in the Middle, três de Breaking Bad, dois de Modern Family e um de The
-                        Office (Estados Unidos). Ele também deixou sua marca como ator em filmes aclamados como O
-                        Resgate do Soldado Ryan (1998), Little Miss Sunshine (2006), Drive (2011), Argo (2012) e
-                        Godzilla (2014). Não se limitando apenas a atuar, Cranston emprestou sua voz para dois monstros
-                        da série Mighty Morphin Power Rangers.
-
-                        Em 2016, Cranston recebeu uma indicação ao Oscar de Melhor Ator pelo seu trabalho no filme
-                        Trumbo, mostrando sua versatilidade e talento em diferentes formas de expressão artística.
-                    </p>
-                    <a href="https://pt.wikipedia.org/wiki/Bryan_Cranston" class="elenco-link">Leia mais...</a>
-                </div>
-                <div class="box-slide">
-                    <img src="img/dean.jpg">
-                    <h2>Dean Norris<br>Personagem: Hank Schrader</h2>
-                    <p>Dean Joseph Norris, nascido em 8 de abril de 1963, é um talentoso ator americano. Ele é
-                        reconhecido principalmente por seu papel como o agente da DEA Hank Schrader na renomada série da
-                        AMC Breaking Bad (2008–2013) e em seu spin-off Better Call Saul (2020). Além disso, Norris
-                        trouxe vida ao personagem do vereador James "Big Jim" Rennie na série da CBS Under the Dome
-                        (2013–2015) e interpretou o impiedoso chefe da máfia Clay "Uncle Daddy" Husser na série da TNT
-                        Claws (2017–2022).
-
-                        Com uma carreira repleta de realizações, Norris deixou sua marca em uma ampla variedade de
-                        filmes e programas de TV. Sua presença talentosa foi vista em obras cinematográficas como Lethal
-                        Weapon 2 (1989), Hard to Kill (1990), Total Recall (1990), Terminator 2: Judgment Day (1991),
-                        The Firm (1993), Starship Troopers (1997), The Cell (2000), Little Miss Sunshine (2006), Evan
-                        Almighty (2007) e Sons of Liberty (2015). Mais recentemente, Norris brilhou em filmes como The
-                        Book of Henry (2017), Death Wish (2018) e Scary Stories to Tell in the Dark (2019).
-                    </p>
-                    <a href="https://pt.wikipedia.org/wiki/Dean_Norris" class="elenco-link">Leia mais...</a>
-                </div>
-                <div class="box-slide">
-                    <img src="img/aaron.jpg">
-                    <h2>Aaron Paul<br>Personagem: Jesse Pinkman</h2>
-                    <p>Aaron Paul, nascido Aaron Paul Sturtevant em 27 de agosto de 1979, é um aclamado ator e produtor
-                        americano. Ele é famoso por sua interpretação de Jesse Pinkman na série Breaking Bad
-                        (2008–2013), pela qual ganhou diversos prêmios, incluindo o Critics' Choice Television Award e o
-                        Primetime Emmy Award. Além disso, ele reprisou o papel de Jesse Pinkman no filme El Camino: A
-                        Breaking Bad Movie (2019) e na última temporada da série Better Call Saul (2022).
-
-                        Paul começou sua carreira em vídeos musicais e papéis menores em filmes antes de alcançar o
-                        estrelato com Breaking Bad. Após o sucesso da série, ele expandiu sua carreira para incluir
-                        papéis em filmes como Need for Speed (2014), Exodus: Gods and Kings (2014) e Eye in the Sky
-                        (2015). Ele também emprestou sua voz a Todd Chavez na série animada BoJack Horseman (2014–2020)
-                        e atuou em séries como The Path (2016–2018) e Westworld (2020–2022). Em 2023, ele recebeu
-                        elogios por seu papel no episódio "Beyond the Sea" da série Black Mirror.
-                    </p>
-                    <a href="https://pt.wikipedia.org/wiki/Aaron_Paul" class="elenco-link">Leia mais...</a>
-                </div>
-                <div class="box-slide">
-                    <img src="img/rj.jpg">
-                    <h2>RJ Mitte<br>Personagem: Walter White Junior</h2>
-                    <p></p>Roy Frank "RJ" Mitte III, nascido em 21 de agosto de 1992, é um talentoso ator e produtor
-                        norte-americano, conhecido por seu papel como Walter "Flynn" White Jr. na série Breaking Bad.
-                        Assim como seu personagem na tela, Mitte enfrenta desafios devido à sua leve paralisia cerebral.
-
-                        Originário de Lafayette, Louisiana, Mitte superou obstáculos desde o nascimento, incluindo danos
-                        cerebrais permanentes. Sua mudança para Los Angeles em 2006 marcou o início de uma carreira
-                        promissora na indústria do entretenimento.
-
-                        Além de seu papel notável em Breaking Bad, Mitte ampliou sua presença na televisão e no cinema,
-                        mostrando um compromisso com a representação inclusiva. Sua jornada inspiradora continua a
-                        deixar um impacto duradouro na indústria do entretenimento.
-                    </p>
-                    <a href="https://pt.wikipedia.org/wiki/RJ_Mitte" class="elenco-link">Leia mais...</a>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <div class="container_e">
+        <div class="left">
+            <div class="left-item">
+                <img src="img/panda-bryan.jpg">
+                <div class="txt_el">
+                    <h3>Bryan como Li Shan</h3>
+                    <p>Nosso querido Walter White deu a voz ao Li Shan nos filmes Kung Fu Panda 3 e 4</p>
                 </div>
             </div>
+            <div class="left-item">
+                <img src="img/blackmiror.jpg">
+                <div class="txt_el">
+                    <h3>Aarron em Black Mirror</h3>
+                    <p>O ator Aaron teve sua participação no episodio 3 da 6ª temporada de Black Mirror</p>
+                </div>
+            </div>
+            <div class="left-item">
+                <img src="img/reuniao.jpg">
+                <div class="txt_el">
+                    <h3>Elenco se reúne 10 anos depois</h3>
+                    <p>A edição de 2024 do SAG Awards reuniu o elenco da
+                        série Breaking Bad no palco, quase 11 anos o fim da série</p>
+                </div>
+            </div>
+        </div>
+        <div class="right">
+            <img src="img/el-caminho.jpg" alt="">
         </div>
     </div>
     <footer>
         <p>© Desenvolvido por Maryanne L. Carvalho - 2024</p>
     </footer>
-
-    <script src="js/jquery-3.6.0.min.js"></script>
-    <script src="js/slick.min.js"></script>
-    <script src="js/codigo.js"></script>
+    <script src="js/carrossel.js"></script>
 </body>
+
 </html>

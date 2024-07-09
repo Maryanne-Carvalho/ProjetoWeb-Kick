@@ -5,86 +5,159 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curiosidades - Breaking Bad</title>
-    <link rel="stylesheet" href="css/style.css">
-    <script src="js/codigo.js" defer></script>
+    <link rel="stylesheet" href="css/elenco.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <script src="js/menu.js" defer></script>
+    <script src="js/carrossel.js" defer></script>
 </head>
 
 <body>
-    <header>
-        <div id="logo">
-            <h1>Breaking Bad</h1>
-        </div>
-        <button class="menu-toggle" id="menu-toggle">&#9776;</button>
-        <nav class="nav">
-            <div class="nav-links" id="nav-links">
-                <a href="">Home</a>
-                <a href="elenco.html">Elenco</a>
-                <a href="curi.html">Curiosidades</a>
-                <a href="bast.html">Bastidores</a>
-                <a href="game.html">Game</a>
-            </div>
-        </nav>
-    </header>
-    <div class="container">
-        <div class="content curiosidade">
-            <div class="box-slide curi-texto ">
-                <img src="img/img_cur01.jpg" alt="">
-                <p>A série foi elogiada por sua precisão científica, especialmente em relação à química. Gilligan e sua
-                    equipe consultaram químicos reais para garantir que os processos de fabricação de drogas fossem
-                    retratados com precisão. Além disso, os nomes dos episódios muitas vezes fazem referência a
-                    conceitos científicos.</p>
-            </div>
-
-            <div class="box-slide curi-texto">
-                <img src="img/cur02.jpg" alt="">
-                <p>Durante as filmagens, a substância utilizada para simular a cena era açúcar em pedra. Curiosamente, esse
-                    açúcar poderia ser aproveitado depois para adoçar o café.</p>
-            </div>
-
-            <div class="box-slide curi-texto">
-                <img src="img/cur03.jpg" alt="">
-                <p>Jesse Pinkman ia morrer no nono episódio, mas a greve dos roteiristas, em 2007, interrompeu as filmagens,
-                    que resultou numa primeira temporada de apenas sete episódios. Foi tempo suficiente para perceber o
-                    verdadeiro potencial do personagem..</p>
-            </div>
-            <div class="box-slide curi-texto">
-                <img src="img/cur04.jpg" alt="">
-                <p>A mítica cena em que Walter joga uma pizza no telhado foi gravada no primeiro take. Aliás, muitos fãs
-                    foram até a casa para repetir o famoso arremesso. Certamente, nem todos tiveram a mesma destreza de
-                    Cranston!</p>
-            </div>
-            <div class="box-slide curi-texto">
-                <img src="img/cur05.jpg" alt="">
-                <p>É difícil imaginar Heisenberg sem seu característico chapéu preto. Mas a verdade é que o acessório não
-                    estava previsto no roteiro. Cranston o usou apenas para proteger sua cabeça raspada. Quando Vince
-                    Gilligan viu aquilo, não hesitou.</p>
-            </div>
-            <div class="box-slide curi-texto">
-                <img src="img/cur06.jpg" alt="">
-                <p>Curiosamente, o último capítulo da série não se chama Samário, mas FeLiNa: Fe (Ferro), Li (Lítio) e Na
-                    (Sódio), elementos presentes no sangue, na fabricação da metanfetamina e nas lágrimas. Basicamente, o
-                    último capítulo pode ser traduzido como sangue, meta e lágrimas. Incrível.</p>
-            </div>
-            <div class="box-slide curi-texto">
-                <img src="img/cur07.jpg" alt="">
-                <p>Lembra-se das coordenadas onde Walter White enterrou o dinheiro? Eram +34º 59' 20.00'' -106º 36' 52.00:
-                    justamente o estacionamento dos Albuquerque Studios!</p>
-            </div>
-            <div class="box-slide curi-texto">
-                <img src="img/cur08.jpg" alt="">
-                <p>Em uma cena de luta com Tuco Salamanca, o ator por trás do personagem, Raymond Cruz, acertou, sem querer,
-                    Aaron Paul, que caiu inconsciente no chão. Felizmente, tudo não passou de um susto.</p>
-            </div>
+    <div class="navbar">
+        <div class="navbar_logo"> Breaking Bad </div>
+        <a href="#" class="navbar_button">
+            <span class="bar" id="top"></span>
+            <span class="bar" id="center"></span>
+            <span class="bar" id="botton"></span>
+        </a>
+        <div class="navbar_links">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="elenco.html">Elenco</a></li>
+                <li><a href="">Curiosidades</a></li>
+                <li><a href="bast.html">Bastidores</a></li>
+                <li><a href="game.html">Game</a></li>
+            </ul>
         </div>
     </div>
+    <div class="container">
+        <div class="elenco-content">
+            <div class="elenco-carrossel">
+                <div class="box-slide fade">
+                    <img src="img/img_cur01.jpg" alt="">
+                    <p>A série foi elogiada por sua precisão científica, especialmente em relação à química. Gilligan e
+                        sua
+                        equipe consultaram químicos reais para garantir que os processos de fabricação de drogas fossem
+                        retratados com precisão. Além disso, os nomes dos episódios muitas vezes fazem referência a
+                        conceitos científicos.</p>
+                </div>
+                <div class="box-slide fade">
+                    <img src="img/cur02.jpg" alt="">
+                    <p>Durante as filmagens, a substância utilizada para simular a cena era açúcar em pedra.
+                        Curiosamente, esse
+                        açúcar poderia ser aproveitado depois para adoçar o café.</p>
+                </div>
+                <div class="box-slide fade">
+                    <img src="img/cur03.jpg" alt="">
+                    <p>Jesse Pinkman ia morrer no nono episódio, mas a greve dos roteiristas, em 2007, interrompeu as
+                        filmagens,
+                        que resultou numa primeira temporada de apenas sete episódios. Foi tempo suficiente para
+                        perceber o
+                        verdadeiro potencial do personagem.</p>
+                </div>
+                <div class="box-slide fade">
+                    <img src="img/cur04.jpg" alt="">
+                    <p>A mítica cena em que Walter joga uma pizza no telhado foi gravada no primeiro take. Aliás, muitos
+                        fãs
+                        foram até a casa para repetir o famoso arremesso. Certamente, nem todos tiveram a mesma destreza
+                        de
+                        Cranston!</p>
+                </div>
+                <div class="box-slide fade">
+                    <img src="img/cur05.jpg" alt="">
+                    <p>É difícil imaginar Heisenberg sem seu característico chapéu preto. Mas a verdade é que o
+                        acessório não
+                        estava previsto no roteiro. Cranston o usou apenas para proteger sua cabeça raspada. Quando
+                        Vince
+                        Gilligan viu aquilo, não hesitou.</p>
+                </div>
+                <div class="box-slide fade">
+                    <img src="img/cur06.jpg" alt="">
+                    <p>Curiosamente, o último capítulo da série não se chama Samário, mas FeLiNa: Fe (Ferro), Li (Lítio)
+                        e Na
+                        (Sódio), elementos presentes no sangue, na fabricação da metanfetamina e nas lágrimas.
+                        Basicamente, o
+                        último capítulo pode ser traduzido como sangue, meta e lágrimas. Incrível.</p>
+                </div>
+                <div class="box-slide fade">
+                    <img src="img/cur07.jpg" alt="">
+                    <p>Lembra-se das coordenadas onde Walter White enterrou o dinheiro? Eram +34º 59' 20.00'' -106º 36'
+                        52.00:
+                        justamente o estacionamento dos Albuquerque Studios!</p>
+                </div>
+                <div class="box-slide fade">
+                    <img src="img/cur08.jpg" alt="">
+                    <p>Em uma cena de luta com Tuco Salamanca, o ator por trás do personagem, Raymond Cruz, acertou, sem
+                        querer,
+                        Aaron Paul, que caiu inconsciente no chão. Felizmente, tudo não passou de um susto.</p>
+                </div>
+                <div class="box-slide fade">
+                    <img src="img/cur09.jpg" alt="">
+                    <p>A casa de Jesse foi vendida no período em que a 2ª temporada era gravada. Todas as cenas internas
+                        na casa de Jesse da 3ª temporada em diante foram, na verdade, gravadas em um set construído para
+                        ser um pouquinho maior do que o local verdadeiro.</p>
+                </div>
+                <div class="box-slide fade">
+                    <img src="img/cur10.jpg" alt="">
+                    <p>Assim como o personagem, o ator R.J. Mitte tem paralisia cerebral na vida real. Mitte sofre de
+                        paralisia cerebral moderada e teve que aprender a andar de muletas e a melhorar sua dicção para
+                        conseguir o papel de Walter Jr.</p>
+                </div>
+                <div class="box-slide fade">
+                    <img src="img/cur11.jpg" alt="">
+                    <p>Cada episódio custou 3 milhões de dólares.O que faz cada temporada de 13 episódios valer quase 40
+                        milhões. </p>
+                </div>
+
+
+
+
+            </div>
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    </div>
+    <div class="container_c">
+        <div class="left_c">
+            <div class="left-item_c">
+                <img src="img/r01.jpg">
+                <div class="txt_c">
+                    <h3>Cada um dos “yo” e “bitch” ditos na série estão no roteiro.</h3>
+                    <p>De acordo com o ator Matt Jones (o amigo viciado de Jesse, Badger), as gravações têm apenas 1% de
+                        improviso. Todo o resto realmente está no roteiro.</p>
+                </div>
+            </div>
+            <div class="left-item_c">
+                <img src="img/r02.jpg">
+                <div class="txt_c">
+                    <h3>Skyler grávida era a Marie grávida na 2ª temporada.</h3>
+                    <p>A atriz Betsy Brandt (Marie Schrader), estava grávida de verdade durante as gravações da 2ª
+                        temporada. Por isso, para dar veracidade às cenas em que a Skyler estava grávida, a produção
+                        usou closes da barriga de Betsy.</p>
+                </div>
+            </div>
+            <div class="left-item_c">
+                <img src="img/r03.jpg">
+                <div class="txt_c">
+                    <h3>A equipe de The Walking Dead auxiliou na cena “Duas Caras” de Gus Fring.</h3>
+                    <p>É muito bom ter um time de especialistas em efeitos especiais zumbis por perto. A equipe de The
+                        Walking Dead, do canal AMC, auxiliou a produção de Breaking Bad na cena da morte de Gus Fring,
+                        com uma escultura 3D da cabeça do chefão digitalmente inserida no plano original.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="right_c">
+           <a href="http://www.savewalterwhite.com/"> <img src="img/r04.jpg" alt=""></a>
+        </div>
+    </div>
+
+
 
     <footer>
         <p>© Desenvolvido por Maryanne L. Carvalho - 2024</p>
     </footer>
 
-    <script src="js/jquery-3.6.0.min.js"></script>
-    <script src="js/slick.min.js"></script>
-    <script src="js/codigo.js"></script>
 </body>
 
 </html>

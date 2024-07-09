@@ -1,0 +1,82 @@
+.carousel {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    margin: auto;
+}
+
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease;
+    align-items: center; 
+}
+
+.carousel-item {
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10px;
+}
+.carousel-item:hover {
+    transform: scale(1.1); 
+}
+
+.ator {
+    text-align: center;
+    margin: 10px;
+    transition: transform 0.3s ease ;
+}
+.ator:hover {
+    font-size: 50px; 
+    transform: scale(1.1); 
+
+}
+.ator:hover .texto {
+    font-size: 16px; 
+}
+
+.e_circle {
+    border-radius: 50%;
+    overflow: hidden;
+    margin: auto;
+}
+
+.texto {
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: center; 
+    transition: font-size 0.3s ease; 
+}
+.texto:hover {
+    font-size: 16px; 
+}
+
+.slick-prev, .slick-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    display: none; /* Esconde por padrão */
+}
+
+.slick-prev {
+    left: 10px;
+}
+
+.slick-next {
+    right: 10px;
+}
+
+@media (max-width: 768px) {
+    .slick-prev, .slick-next {
+        width: 30px;
+        height: 30px;
+        font-size: 16px;
+    }
+}

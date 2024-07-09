@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Bebas Neue', sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0d4703;
+    color: #fff;
+}
+
+.navbar_logo {
+    font-size: 2.5rem;
+    margin: 0.5rem;
+    margin-left: 20px;
+}
+.navbar_button {
+    position: absolute;
+    margin: 0.8rem;
+    top: 0.75rem;
+    right: 1rem;
+    display: block;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+    cursor: pointer;
+    
+}
+.navbar_button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: #fff;  
+    border-radius: 10px;
+    transition: 0.6s;
+}
+
+
+.navbar_links ul {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.navbar_links li {
+    list-style-type: none;
+}
+
+.navbar_links a {
+    color: #fff;
+    text-decoration: none;
+    padding: 1rem;
+    display: block;
+    border-radius: 10px;
+}
+
+.navbar_links a:hover {
+    background-color: #fff;
+    color: #0d4703;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    clear: both;
+}
+
+@media (max-width: 600px) {
+    .navbar_button {
+        display: flex;
+    }
+
+    .navbar_links {
+        display: none;
+        width: 100%;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .navbar_links ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .navbar_links li {
+        text-align: center;
+    }
+
+    .navbar_links li a {
+        padding: 1rem;
+    }
+
+    .navbar_links.active {
+        display: flex;
+    }
+
+    .navbar_links.active .drop_content {
+        position: relative;
+    }
+
+    .navbar_links.active .dropdown .drop_button {
+        display: block;
+        width: 100%;
+    }
+    /* Animação do botão dropdown */
+
+    #top, #botton{
+        transform-origin: left;
+    }
+
+    .navbar.active .navbar_button #top{
+        transform: rotate(37deg);
+        transition: 0.6s;
+    }
+
+    .navbar.active .navbar_button #center{
+        opacity: 0;
+        transition: 0.6s;
+    }
+
+    .navbar.active .navbar_button #botton{
+        transform: rotate(-37deg);
+        transition: 0.6s;
+    }
+}

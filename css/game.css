@@ -1,0 +1,93 @@
+body {
+    background-color: #fff; 
+    line-height: 1.8;
+}
+
+.container {
+    max-width: 700px;
+    margin: 50px auto;
+    text-align: center; 
+    padding: 20px;
+    border: 2px solid #0d4703; 
+    border-radius: 10px;
+    background-color: #e5e1e1;
+}
+
+h1 {
+    font-size: 2.5em; 
+    margin-bottom: 20px;
+}
+
+.intro {
+    text-align: left; 
+    margin-bottom: 20px;
+}
+
+.intro p {
+    font-size: 1.2em; 
+}
+
+.button {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 1.2em;
+    background-color: #0d4703; 
+    color: #fff; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+.button:hover {
+    background-color: #0a3a02; 
+}
+
+#game div {
+    margin-bottom: 10px;
+    text-align: center; 
+}
+
+#game input[type="radio"] {
+    display: none; 
+}
+
+#game label {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #333; 
+    color: #fff; 
+    border: 2px solid #fff; 
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#game input[type="radio"]:checked + label {
+    background-color: #0d4703; 
+    color: #fff; 
+}
+
+#game label:hover {
+    background-color: #555; 
+}
+
+#game button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    background-color: #0d4703; 
+    color: #fff; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease,transform 0.3s ease;
+    margin-top: 20px;
+}
+
+#game button:hover {
+    background-color: #14660b;
+    transform: translateY(-3px);
+}
